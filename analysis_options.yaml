@@ -1,0 +1,53 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at
+  # https://dart-lang.github.io/linter/lints/index.html.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # producing the lint.
+  rules:
+    - avoid_web_libraries_in_flutter
+    - collection_methods_unrelated_type
+    - control_flow_in_finally
+    - deprecated_member_use_from_same_package
+    - empty_statements
+    - no_duplicate_case_values
+    - prefer_relative_imports
+    - throw_in_finally
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
+    # - avoid_catches_without_on_clauses
+    - avoid_multiple_declarations_per_line
+    - avoid_unnecessary_containers
+    - avoid_unused_constructor_parameters
+    - flutter_style_todos
+    - prefer_asserts_in_initializer_lists
+    - prefer_asserts_with_message
+    - prefer_final_locals
+    - prefer_int_literals
+    - require_trailing_commas
+    - use_is_even_rather_than_modulo
+    - use_named_constants
+    - unnecessary_statements
+exclude:
+    - lib/**.freezed.dart
+    - lib/**.g.dart
+    - lib/generated
+    - lib/firebase_options.dart
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options
