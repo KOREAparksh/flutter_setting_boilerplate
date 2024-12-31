@@ -7,5 +7,111 @@
       "type": "dart",
       "args": []
     },
+    {
+      "name": "dev-dev",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "dev",
+        // "--dart-define-from-file",
+        // "config_dev.json"
+      ],
+    },
+    {
+      "name": "dev-profile",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "dev",
+        // "--dart-define-from-file",
+        // "config_dev.json"
+      ],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "dev-release",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "dev",
+        // "--dart-define-from-file",
+        // "config_dev.json"
+      ],
+      "flutterMode": "release"
+    },
+    {
+      "name": "stag-dev",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "stag",
+        // "--dart-define-from-file",
+        // "config_stag.json"
+      ],
+    },
+    {
+      "name": "stag-profile",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "stag",
+        // "--dart-define-from-file",
+        // "config_stag.json"
+      ],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "stag-release",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "stag",
+        // "--dart-define-from-file",
+        // "config_stag.json"
+      ],
+      "flutterMode": "release"
+    },
+
+    {
+      "name": "prod-dev",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "prod",
+        // "--dart-define-from-file",
+        // "config_prod.json"
+      ],
+    },
+    {
+      "name": "prod-profile",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "prod",
+        // "--dart-define-from-file",
+        // "config_prod.json"
+      ],
+      "flutterMode": "profile"
+    },
+    {
+      "name": "prod-release",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--flavor",
+        "prod",
+        // "--dart-define-from-file",
+        // "config_prod.json"
+      ],
+      "flutterMode": "release"
+    },
   ]
 }
