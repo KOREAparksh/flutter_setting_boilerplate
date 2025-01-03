@@ -2,6 +2,7 @@
 ---
 - [Index](#index)
 - [Content](#content)
+  - [FVM](#fvm)
   - [Flavor](#flavor)
 - [FAQ](#faq)
   - [How to run](#how-to-run)
@@ -21,6 +22,10 @@
       - [iOS](#ios-3)
 
 # Content
+## FVM
+- This package is using FVM
+- You can easily manage versions through FVM
+  
 ## Flavor
 - The flavors are divided into three categories below:
   - dev
