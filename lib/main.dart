@@ -2,17 +2,11 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import 'jongsik/annotation_test.dart';
-import 'jongsik/async_injectable.dart';
-import 'jongsik/core/config/config.dart';
-import 'jongsik/core/config/flavor.dart';
-import 'jongsik/core/configurations/configurations.dart';
-import 'jongsik/env_test.dart';
-import 'jongsik/factory_param_test.dart';
-import 'jongsik/inheritance.dart';
+import 'core/config/flavor.dart';
+import 'core/configurations/configurations.dart';
 
-void main() {
-  configureDependencies(environment: Flavor.prod);
+void main() async {
+  await configureDependencies(environment: Flavor.prod);
   runApp(const MyApp());
 }
 

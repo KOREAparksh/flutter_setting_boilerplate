@@ -4,5 +4,5 @@ import 'configurations.config.dart';
 
 final getIt = GetIt.instance;
 
-@injectableInit
-void configureDependencies({String? environment}) => getIt.init(environment: environment);
+@InjectableInit()
+Future<void> configureDependencies({String? environment}) async => await getIt.init(environment: environment);
