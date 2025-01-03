@@ -14,8 +14,8 @@
       "args": [
         "--flavor",
         "dev",
-        // "--dart-define-from-file",
-        // "config_dev.json"
+        "--dart-define-from-file",
+        "env/config_dev.json"
       ],
     },
     {
@@ -25,8 +25,8 @@
       "args": [
         "--flavor",
         "dev",
-        // "--dart-define-from-file",
-        // "config_dev.json"
+        "--dart-define-from-file",
+        "env/config_dev.json"
       ],
       "flutterMode": "profile"
     },
@@ -37,8 +37,8 @@
       "args": [
         "--flavor",
         "dev",
-        // "--dart-define-from-file",
-        // "config_dev.json"
+        "--dart-define-from-file",
+        "env/config_dev.json"
       ],
       "flutterMode": "release"
     },
@@ -49,8 +49,8 @@
       "args": [
         "--flavor",
         "stag",
-        // "--dart-define-from-file",
-        // "config_stag.json"
+        "--dart-define-from-file",
+        "env/config_stag.json"
       ],
     },
     {
@@ -60,8 +60,8 @@
       "args": [
         "--flavor",
         "stag",
-        // "--dart-define-from-file",
-        // "config_stag.json"
+        "--dart-define-from-file",
+        "env/config_stag.json"
       ],
       "flutterMode": "profile"
     },
@@ -72,8 +72,8 @@
       "args": [
         "--flavor",
         "stag",
-        // "--dart-define-from-file",
-        // "config_stag.json"
+        "--dart-define-from-file",
+        "env/config_stag.json"
       ],
       "flutterMode": "release"
     },
@@ -85,8 +85,8 @@
       "args": [
         "--flavor",
         "prod",
-        // "--dart-define-from-file",
-        // "config_prod.json"
+        "--dart-define-from-file",
+        "env/config_prod.json"
       ],
     },
     {
@@ -96,8 +96,8 @@
       "args": [
         "--flavor",
         "prod",
-        // "--dart-define-from-file",
-        // "config_prod.json"
+        "--dart-define-from-file",
+        "env/config_prod.json"
       ],
       "flutterMode": "profile"
     },
@@ -108,8 +108,8 @@
       "args": [
         "--flavor",
         "prod",
-        // "--dart-define-from-file",
-        // "config_prod.json"
+        "--dart-define-from-file",
+        "env/config_prod.json"
       ],
       "flutterMode": "release"
     },
