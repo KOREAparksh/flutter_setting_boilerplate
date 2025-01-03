@@ -1,16 +1,31 @@
-# template
+## How to Change Application Id / Bundle Id
+### AOS
+- Move android/buildSrc/src/main/kotlin/Config.kt
+- Change `APPLICATION_ID` in Config object
 
-template
+### iOS
+- Open Xcode
+- Open (Target Runner) and move build settings
+- Find `Product name` and change name 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## How to Change App Name
+### AOS
+- Move android/buildSrc/src/main/kotlin/Config.kt
+- Change `APP_NAME` in Config.Flavor object
 
-A few resources to get you started if this is your first Flutter project:
+### iOS
+- Open Xcode
+- Open (Target Runner) and move build settings
+- Find `Product Bundle Identifier` and change ids
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Change App Icon
+### AOS
+- Move android/src/{`flavor`}/res
+- Change `ic_launcher` PNG files
+
+### iOS
+- Open Xcode
+- Click Asset at Side Bar
+- Find `AppIcon-{Flavor}` and change images
