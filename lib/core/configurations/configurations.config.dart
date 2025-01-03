@@ -10,12 +10,12 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:get_it/get_it.dart' as _i174;
 import 'package:injectable/injectable.dart' as _i526;
-import 'package:template/jongsik/a_view_model.dart' as _i278;
-import 'package:template/jongsik/annotation_test.dart' as _i849;
-import 'package:template/jongsik/async_injectable.dart' as _i0;
-import 'package:template/jongsik/env_test.dart' as _i668;
-import 'package:template/jongsik/factory_param_test.dart' as _i54;
-import 'package:template/jongsik/inheritance.dart' as _i434;
+import 'package:template/a_view_model.dart' as _i278;
+import 'package:template/annotation_test.dart' as _i849;
+import 'package:template/async_injectable.dart' as _i0;
+import 'package:template/env_test.dart' as _i668;
+import 'package:template/factory_param_test.dart' as _i54;
+import 'package:template/inheritance.dart' as _i434;
 
 const String _prod = 'prod';
 
