@@ -29,3 +29,24 @@
 - Open Xcode
 - Click Asset at Side Bar
 - Find `AppIcon-{Flavor}` and change images
+
+## How to Add Config/Key Value in Native Code
+##### Use Config Object
+- Open buildSrc/src/.../Config.kt
+- Add value in App. If the value is different for each flavor, set it in Flavor.
+- Open app level's build.gradle.kts 
+- Add resValue sentence in productFlavors.
+
+##### Use String.xml
+- Open each string.xml files
+- Add values
+
+### iOS
+- Open ios/Flutter/{Flavor}.xcconfig
+- Add values
+- Open Runner/info.plist
+- Add Key and string
+  ```plist
+	<key>FLAVOR</key>
+	<string>$(FLAVOR)</string>
+  ```
